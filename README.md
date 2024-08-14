@@ -1,2 +1,4 @@
 # SoftUni-React-exam
-Crypto dedicated site 
+To run the project:
+-npm install
+-npm run dev
