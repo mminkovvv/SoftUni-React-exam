@@ -4,8 +4,8 @@
             (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Server = factory(global.http, global.fs, global.crypto));
 
 }
-    (this, (function (http, crypto) {
-        const fs = require('fs');
+    (this, (function (http, fs, crypto) {
+       
         'use strict';
 
 
