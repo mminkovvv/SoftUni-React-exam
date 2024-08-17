@@ -1,0 +1,73 @@
+.edit {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../background-2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.edit-box {
+    color: white;
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background-color: #096BAB;
+    border: 2px solid #2e87cb;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.edit-box h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.edit-box form {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.edit-box form label {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.edit-box form input {
+    width: 320px;
+    height: 30px;
+    padding-left: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+    outline: none;
+    color: black;
+
+}
+
+.edit-box form textarea {
+    width: 320px;
+    height: 80px;
+    padding-left: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+    outline: none;
+    background-color: whitesmoke;
+    resize: none;
+    color: black;
+}
+
+.edit-box input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #050912;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}

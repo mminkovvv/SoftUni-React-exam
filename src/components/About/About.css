@@ -1,0 +1,62 @@
+/* Container for the About Page */
+.about-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(../../../background-2.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    padding: 50px;
+}
+
+/* Content Section */
+.about-page-content {
+    max-width: 600px;
+    margin-right: 40px;
+}
+
+/* Headings Styling */
+.about-page-content h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+/* Paragraph Styling */
+.about-page-content p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+.about-page img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .about-page {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .about-page-content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-page img {
+        max-width: 100%;
+    }
+}

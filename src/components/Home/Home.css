@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Home Page Container */
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../../background.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    /* This makes the background image stay fixed while scrolling */
+}
+
+/* Features Section */
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background to make text readable */
+}
+
+.feature {
+    max-width: 300px;
+    text-align: left;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent background */
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
