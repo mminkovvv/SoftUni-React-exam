@@ -1,8 +1,21 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Backend:
 
-Currently, two official plugins are available:
+Navigate to the backend directory: cd server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Install backend dependencies: npm install
+
+-Start the backend server: node ./server.js
+
+The backend server will start and listen on the configured port - http://localhost:3030.
+
+Frontend
+
+-Open a new terminal and navigate to the frontend directory: cd client
+
+-Install frontend dependencies: npm install
+
+-Start the frontend development server: npm run dev
+
+The frontend server will start and listen on the configured port - http://localhost:5173.
