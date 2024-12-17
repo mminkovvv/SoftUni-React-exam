@@ -18,4 +18,4 @@ Frontend
 
 -Start the frontend development server: npm run dev
 
-The frontend server will start and listen on the configured port - http://localhost:5173.
+The frontend server will start and listen on the configured port - http://localhost:5173. 
