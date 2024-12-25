@@ -1,5 +1,5 @@
 # React + Vite
-
+!!! need to fix some little errors !!!
 Backend:
 
 Navigate to the backend directory: cd server
